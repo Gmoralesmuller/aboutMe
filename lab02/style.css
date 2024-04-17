@@ -34,7 +34,7 @@ header img {
 
 nav {
     background-color: #FF6F00;
-    color: white;
+    color: black;
     padding: 15px 0;
     text-align: center;
     width: 100%;
@@ -46,7 +46,7 @@ nav {
 
 nav a {
     display: inline-block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 15px 20px;
     text-decoration: none;
@@ -63,5 +63,13 @@ main {
     background-color: #E1BEE7; /* Color pastel que combina con los demás */
     text-align: justify; /* Justificar el texto */
     color: black;
-    
+}
+footer {
+    background-color: #5E35B1; /* Establece el color de fondo del footer a un púrpura oscuro */
+    width: 100%; /* Establece el ancho del footer al 100% del ancho del contenedor padre */
+    color: white; /* Establece el color del texto en el footer a blanco */
+    position: fixed; /* Fija el footer en la parte inferior de la ventana del navegador */
+    bottom: 0; /* Establece la posición del footer en la parte inferior de la ventana */
+    padding-left: 35px;
+
 }
