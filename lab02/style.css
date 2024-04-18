@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #5E35B1;
+    background-color: #de406e;
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -18,6 +18,7 @@ header {
 .header-content {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 header img {
@@ -31,9 +32,22 @@ header img {
     margin-left: auto;
     margin-right: auto;
 }
+.about-me {
+    display: flex;
+    align-items: center; 
+    
+}
+
+.about-me img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+    
+}
 
 nav {
-    background-color: #FF6F00;
+    background-color: #51c7bb;
     color: black;
     padding: 15px 0;
     text-align: center;
@@ -54,18 +68,18 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #FFA000;
+    background-color: #a6e8a1;
     font-weight: bold; /* Para hacer el texto un poco más grueso */
 }
 
 main {
     padding: 20px;
-    background-color: #E1BEE7; /* Color pastel que combina con los demás */
+    background-color: #ffeed1; /* Color pastel que combina con los demás */
     text-align: justify; /* Justificar el texto */
     color: black;
 }
 footer {
-    background-color: #5E35B1; /* Establece el color de fondo del footer a un púrpura oscuro */
+    background-color: #de406e; /* Establece el color de fondo del footer a un púrpura oscuro */
     width: 100%; /* Establece el ancho del footer al 100% del ancho del contenedor padre */
     color: white; /* Establece el color del texto en el footer a blanco */
     position: fixed; /* Fija el footer en la parte inferior de la ventana del navegador */
