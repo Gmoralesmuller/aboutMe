@@ -7,7 +7,7 @@ body {
 header {
     background-color: #de406e;
     color: white;
-    padding: 10px 0;
+    padding: 0px 0;
     text-align: center;
     position: sticky;
     top: 0;
@@ -77,12 +77,13 @@ main {
     background-color: #ffeed1; /* Color pastel que combina con los demás */
     text-align: justify; /* Justificar el texto */
     color: black;
+    padding-bottom: 70px;
 }
 footer {
     background-color: #de406e; /* Establece el color de fondo del footer a un púrpura oscuro */
     width: 100%; /* Establece el ancho del footer al 100% del ancho del contenedor padre */
     color: white; /* Establece el color del texto en el footer a blanco */
-    position: fixed; /* Fija el footer en la parte inferior de la ventana del navegador */
+    position: fixed; /* Fija el footer en la parte inferior de la ventana del navegador  */
     bottom: 0; /* Establece la posición del footer en la parte inferior de la ventana */
     padding-left: 35px;
 
