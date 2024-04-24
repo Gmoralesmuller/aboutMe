@@ -108,11 +108,11 @@ function preguntas() {
                         console.log("CORRECTO, adivinaste");
                         alert("Correcto!!\n Amo ese género musical.");
                         score++; 
-                        attempts = 7; 
+                        attempts = 7;
                         break;
                     }
                 }
-                if (attempts < 7) { 
+                if (attempts < 7) {
                     console.log(musica, "INCORRECTO, intento " + attempts + " de 6");
                     alert("Incorrecto!\n Pista, una de mis bandas favoritas es Arctic Monkeys.");
                 }
